@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 
 public class Frequency {
     public static void main(String[] args) throws IOException {
-        List<String> listOfWords = new ArrayList<>();
-        List<String> listOfWordsBeforeFilter = new ArrayList<>();
+        List<String> listOfWords;
+        List<String> listOfWordsBeforeFilter;
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         scanner.close();
